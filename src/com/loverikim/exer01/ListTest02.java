@@ -34,6 +34,13 @@ public class ListTest02 {
 		memberList.add(member1);
 		memberList.add(member2);
 		memberList.add(member3);
+		
+		if (memberList.isEmpty()) {
+			System.out.println("비어있음");
+		}else {
+			System.out.println("비어있지 않음");
+		}
+		
 	
 	}
 
